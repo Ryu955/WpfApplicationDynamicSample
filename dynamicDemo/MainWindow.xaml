@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DynamicDemo"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="525" Background="Black">
+    
     <Grid>
-        <Label x:Name="label" Content="{DynamicResource count}" HorizontalAlignment="Left" Margin="235,150,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.349,-0.072" Height="50" Width="50"/>
-
+        <Image Margin="{DynamicResource catMargin}" Name="image1" Stretch="Uniform" Source="image/cat.jpeg"></Image>
     </Grid>
 </Window>
